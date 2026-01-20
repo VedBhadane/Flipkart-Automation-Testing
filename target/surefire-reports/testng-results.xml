@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-05T12:29:54 IST" name="Surefire suite" finished-at="2025-12-05T12:31:34 IST" duration-ms="100860">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunner.TestRunner@7880cdf3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-12-05T12:29:54 IST" name="Surefire test" finished-at="2025-12-05T12:31:34 IST" duration-ms="100860">
+      <class name="com.testrunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.testrunner.TestRunner@7880cdf3]" started-at="2025-12-05T12:29:54 IST" name="setUpClass" finished-at="2025-12-05T12:29:54 IST" duration-ms="659" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@67514bdd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunner.TestRunner@7880cdf3]" started-at="2025-12-05T12:29:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-05T12:30:33 IST" duration-ms="39125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["1. Search iPhone, Sort Price, and Select First Result"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Flipkart User Journey Tests"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunner.TestRunner@7880cdf3]" started-at="2025-12-05T12:30:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-05T12:31:04 IST" duration-ms="30983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["2. Add a Mobile to Cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Flipkart User Journey Tests"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testrunner.TestRunner@7880cdf3]" started-at="2025-12-05T12:31:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-05T12:31:34 IST" duration-ms="29992" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["3. Verify Login Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Flipkart User Journey Tests"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.testrunner.TestRunner@7880cdf3]" started-at="2025-12-05T12:31:34 IST" name="tearDownClass" finished-at="2025-12-05T12:31:34 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.testrunner.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
